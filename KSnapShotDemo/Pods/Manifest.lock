@@ -1,0 +1,25 @@
+PODS:
+  - NerdyUI (1.2.1):
+    - NerdyUI/Chainable (= 1.2.1)
+    - NerdyUI/Private (= 1.2.1)
+    - NerdyUI/Public (= 1.2.1)
+  - NerdyUI/Chainable (1.2.1):
+    - NerdyUI/Private
+    - NerdyUI/Public
+  - NerdyUI/Private (1.2.1)
+  - NerdyUI/Public (1.2.1):
+    - NerdyUI/Private
+
+DEPENDENCIES:
+  - NerdyUI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NerdyUI
+
+SPEC CHECKSUMS:
+  NerdyUI: ae4506046b544a5cdc0873a58c1ece61b29631d0
+
+PODFILE CHECKSUM: 2ba008236769536a6a0d265035177b38c1289587
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042F3151218BE5BF006AAEBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F3150218BE5BF006AAEBE /* AppDelegate.m */; };
+		042F3154218BE5BF006AAEBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F3153218BE5BF006AAEBE /* ViewController.m */; };
+		042F3157218BE5BF006AAEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042F3155218BE5BF006AAEBE /* Main.storyboard */; };
+		042F3159218BE5C1006AAEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042F3158218BE5C1006AAEBE /* Assets.xcassets */; };
+		042F315C218BE5C1006AAEBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042F315A218BE5C1006AAEBE /* LaunchScreen.storyboard */; };
+		042F315F218BE5C1006AAEBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F315E218BE5C1006AAEBE /* main.m */; };
+		042F3167218BE600006AAEBE /* KFormSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F3166218BE600006AAEBE /* KFormSnapViewController.m */; };
+		042F316A218BE970006AAEBE /* UIView+KSnap.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F3169218BE970006AAEBE /* UIView+KSnap.m */; };
+		042F316D218BE985006AAEBE /* UITableView+KSnap.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F316C218BE985006AAEBE /* UITableView+KSnap.m */; };
+		042F3170218BF91F006AAEBE /* UIImage+KSnap.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F316F218BF91F006AAEBE /* UIImage+KSnap.m */; };
+		042F3173218C1598006AAEBE /* KShowSnapPicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F3172218C1598006AAEBE /* KShowSnapPicTool.m */; };
+		042F3179218C3084006AAEBE /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F3178218C3084006AAEBE /* testViewController.m */; };
+		C9B0B8305C20B643B0429A95 /* libPods-KSnapShotDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E215CB462B554BA279AD2 /* libPods-KSnapShotDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042F314C218BE5BF006AAEBE /* KSnapShotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSnapShotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042F314F218BE5BF006AAEBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042F3150218BE5BF006AAEBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042F3152218BE5BF006AAEBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042F3153218BE5BF006AAEBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042F3156218BE5BF006AAEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042F3158218BE5C1006AAEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042F315B218BE5C1006AAEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042F315D218BE5C1006AAEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042F315E218BE5C1006AAEBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042F3165218BE600006AAEBE /* KFormSnapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFormSnapViewController.h; sourceTree = "<group>"; };
+		042F3166218BE600006AAEBE /* KFormSnapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFormSnapViewController.m; sourceTree = "<group>"; };
+		042F3168218BE970006AAEBE /* UIView+KSnap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KSnap.h"; sourceTree = "<group>"; };
+		042F3169218BE970006AAEBE /* UIView+KSnap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KSnap.m"; sourceTree = "<group>"; };
+		042F316B218BE985006AAEBE /* UITableView+KSnap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+KSnap.h"; sourceTree = "<group>"; };
+		042F316C218BE985006AAEBE /* UITableView+KSnap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KSnap.m"; sourceTree = "<group>"; };
+		042F316E218BF91F006AAEBE /* UIImage+KSnap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+KSnap.h"; sourceTree = "<group>"; };
+		042F316F218BF91F006AAEBE /* UIImage+KSnap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KSnap.m"; sourceTree = "<group>"; };
+		042F3171218C1598006AAEBE /* KShowSnapPicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KShowSnapPicTool.h; sourceTree = "<group>"; };
+		042F3172218C1598006AAEBE /* KShowSnapPicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KShowSnapPicTool.m; sourceTree = "<group>"; };
+		042F3177218C3084006AAEBE /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		042F3178218C3084006AAEBE /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		96FF4D9FCD67E9C20C61E01B /* Pods-KSnapShotDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSnapShotDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSnapShotDemo/Pods-KSnapShotDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B05D7F331652C359FD1707 /* Pods-KSnapShotDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSnapShotDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSnapShotDemo/Pods-KSnapShotDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CD4E215CB462B554BA279AD2 /* libPods-KSnapShotDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSnapShotDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042F3149218BE5BF006AAEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B0B8305C20B643B0429A95 /* libPods-KSnapShotDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042F3143218BE5BF006AAEBE = {
+			isa = PBXGroup;
+			children = (
+				042F314E218BE5BF006AAEBE /* KSnapShotDemo */,
+				042F314D218BE5BF006AAEBE /* Products */,
+				67C87A38BBD84DA463E675A2 /* Pods */,
+				495A565883077CBD5ED35223 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042F314D218BE5BF006AAEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042F314C218BE5BF006AAEBE /* KSnapShotDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042F314E218BE5BF006AAEBE /* KSnapShotDemo */ = {
+			isa = PBXGroup;
+			children = (
+				042F314F218BE5BF006AAEBE /* AppDelegate.h */,
+				042F3150218BE5BF006AAEBE /* AppDelegate.m */,
+				042F3152218BE5BF006AAEBE /* ViewController.h */,
+				042F3153218BE5BF006AAEBE /* ViewController.m */,
+				042F3177218C3084006AAEBE /* testViewController.h */,
+				042F3178218C3084006AAEBE /* testViewController.m */,
+				042F3165218BE600006AAEBE /* KFormSnapViewController.h */,
+				042F3166218BE600006AAEBE /* KFormSnapViewController.m */,
+				042F3171218C1598006AAEBE /* KShowSnapPicTool.h */,
+				042F3172218C1598006AAEBE /* KShowSnapPicTool.m */,
+				042F3168218BE970006AAEBE /* UIView+KSnap.h */,
+				042F3169218BE970006AAEBE /* UIView+KSnap.m */,
+				042F316B218BE985006AAEBE /* UITableView+KSnap.h */,
+				042F316C218BE985006AAEBE /* UITableView+KSnap.m */,
+				042F316E218BF91F006AAEBE /* UIImage+KSnap.h */,
+				042F316F218BF91F006AAEBE /* UIImage+KSnap.m */,
+				042F3155218BE5BF006AAEBE /* Main.storyboard */,
+				042F3158218BE5C1006AAEBE /* Assets.xcassets */,
+				042F315A218BE5C1006AAEBE /* LaunchScreen.storyboard */,
+				042F315D218BE5C1006AAEBE /* Info.plist */,
+				042F315E218BE5C1006AAEBE /* main.m */,
+			);
+			path = KSnapShotDemo;
+			sourceTree = "<group>";
+		};
+		495A565883077CBD5ED35223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4E215CB462B554BA279AD2 /* libPods-KSnapShotDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67C87A38BBD84DA463E675A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96FF4D9FCD67E9C20C61E01B /* Pods-KSnapShotDemo.debug.xcconfig */,
+				A8B05D7F331652C359FD1707 /* Pods-KSnapShotDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042F314B218BE5BF006AAEBE /* KSnapShotDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042F3162218BE5C1006AAEBE /* Build configuration list for PBXNativeTarget "KSnapShotDemo" */;
+			buildPhases = (
+				1C281A66D94BC317DE247096 /* [CP] Check Pods Manifest.lock */,
+				042F3148218BE5BF006AAEBE /* Sources */,
+				042F3149218BE5BF006AAEBE /* Frameworks */,
+				042F314A218BE5BF006AAEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSnapShotDemo;
+			productName = KSnapShotDemo;
+			productReference = 042F314C218BE5BF006AAEBE /* KSnapShotDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042F3144218BE5BF006AAEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					042F314B218BE5BF006AAEBE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 042F3147218BE5BF006AAEBE /* Build configuration list for PBXProject "KSnapShotDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042F3143218BE5BF006AAEBE;
+			productRefGroup = 042F314D218BE5BF006AAEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042F314B218BE5BF006AAEBE /* KSnapShotDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042F314A218BE5BF006AAEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F315C218BE5C1006AAEBE /* LaunchScreen.storyboard in Resources */,
+				042F3159218BE5C1006AAEBE /* Assets.xcassets in Resources */,
+				042F3157218BE5BF006AAEBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C281A66D94BC317DE247096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSnapShotDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042F3148218BE5BF006AAEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F3167218BE600006AAEBE /* KFormSnapViewController.m in Sources */,
+				042F3154218BE5BF006AAEBE /* ViewController.m in Sources */,
+				042F3170218BF91F006AAEBE /* UIImage+KSnap.m in Sources */,
+				042F315F218BE5C1006AAEBE /* main.m in Sources */,
+				042F316A218BE970006AAEBE /* UIView+KSnap.m in Sources */,
+				042F3173218C1598006AAEBE /* KShowSnapPicTool.m in Sources */,
+				042F3179218C3084006AAEBE /* testViewController.m in Sources */,
+				042F3151218BE5BF006AAEBE /* AppDelegate.m in Sources */,
+				042F316D218BE985006AAEBE /* UITableView+KSnap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042F3155218BE5BF006AAEBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042F3156218BE5BF006AAEBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042F315A218BE5C1006AAEBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042F315B218BE5C1006AAEBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042F3160218BE5C1006AAEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		042F3161218BE5C1006AAEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042F3163218BE5C1006AAEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FF4D9FCD67E9C20C61E01B /* Pods-KSnapShotDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CCDF6GGY6;
+				INFOPLIST_FILE = KSnapShotDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macblock1.KSnapShotDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042F3164218BE5C1006AAEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B05D7F331652C359FD1707 /* Pods-KSnapShotDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CCDF6GGY6;
+				INFOPLIST_FILE = KSnapShotDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = macblock1.KSnapShotDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042F3147218BE5BF006AAEBE /* Build configuration list for PBXProject "KSnapShotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042F3160218BE5C1006AAEBE /* Debug */,
+				042F3161218BE5C1006AAEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042F3162218BE5C1006AAEBE /* Build configuration list for PBXNativeTarget "KSnapShotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042F3163218BE5C1006AAEBE /* Debug */,
+				042F3164218BE5C1006AAEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042F3144218BE5BF006AAEBE /* Project object */;
+}
